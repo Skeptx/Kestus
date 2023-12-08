@@ -1,0 +1,22 @@
+* eol=lf text=auto
+
+*.make linguist-language=makefile text
+
+*.bat eol=crlf linguist-language=batch text
+*.vbs eol=crlf linguist-language=vbscript text
+
+*.c diff=cpp linguist-language=c text
+*.h diff=cpp linguist-language=c text
+*.cpp diff=cpp linguist-language=cpp text
+*.hpp diff=cpp linguist-language=cpp text
+
+*.md diff=markdown linguist-documentation text
+*.txt linguist-documentation text
+
+/.editorconfig text
+/.gitattributes text
+/.gitignore text
+/COPYING text
+
+/bin** export-ignore
+/lib** export-ignore
